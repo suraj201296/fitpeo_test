@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <div className="flex h-screen bg-gray-900 text-white">
+      <div className="flex sm:h-[100vh] bg-gray-900 text-white">
         <Sidebar />
         <div className="flex flex-col flex-grow">
           <Header />
